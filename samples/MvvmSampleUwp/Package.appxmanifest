@@ -49,7 +49,7 @@
         <uap:SplashScreen Image="Assets\Icon\SplashScreen.png" uap5:Optional="true" BackgroundColor="transparent"/>
         <uap:InitialRotationPreference>
           <uap:Rotation Preference="landscape"/></uap:InitialRotationPreference>
-        <uap:LockScreen BadgeLogo="Assets\Icon\BadgeLogo.png"/>
+        <uap:LockScreen BadgeLogo="Assets\Icon\BadgeLogo.png" Notification="badge"/>
       </uap:VisualElements>
     </Application>
   </Applications>
