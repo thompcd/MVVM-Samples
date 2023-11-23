@@ -7,7 +7,7 @@ using Microsoft.Toolkit.Uwp.UI.Animations;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace MvvmSampleUwp.Controls;
+namespace TillDemoUwp.Controls;
 
 /// <summary>
 /// A simple control that acts as a frame for an interactive sample.

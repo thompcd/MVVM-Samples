@@ -8,7 +8,7 @@ using System.Linq;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
-using MvvmSampleUwp.Views;
+using TillDemoUwp.Views;
 using NavigationView = Microsoft.UI.Xaml.Controls.NavigationView;
 using NavigationViewItem = Microsoft.UI.Xaml.Controls.NavigationViewItem;
 using NavigationViewBackRequestedEventArgs = Microsoft.UI.Xaml.Controls.NavigationViewBackRequestedEventArgs;
@@ -16,7 +16,7 @@ using NavigationViewItemInvokedEventArgs = Microsoft.UI.Xaml.Controls.Navigation
 
 #nullable enable
 
-namespace MvvmSampleUwp;
+namespace TillDemoUwp;
 
 public sealed partial class Shell : UserControl
 {

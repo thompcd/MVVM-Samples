@@ -8,15 +8,15 @@
   IgnorableNamespaces="uap uap5 mp">
 
   <Identity
-    Name="MicrosoftCorporationII.MVVMToolkitSampleApp"
+    Name="thompcd.TillDemo"
     Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
-    Version="8.0.0.0" />
+    Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="950461c4-1285-4186-b254-9b4be0df2488" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>MVVM Toolkit Sample App</DisplayName>
-    <PublisherDisplayName>Microsoft Corp.</PublisherDisplayName>
+    <DisplayName>Till Demo</DisplayName>
+    <PublisherDisplayName>Corey Thompson</PublisherDisplayName>
     <Logo>Assets\Icon\StoreLogo.png</Logo>
   </Properties>
 
@@ -34,12 +34,12 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="MvvmSampleUwp.App">
       <uap:VisualElements
-        DisplayName="MVVM Toolkit Sample App"
+        DisplayName="Till Demo App"
         Square150x150Logo="Assets\Icon\MedTile.png"
         Square44x44Logo="Assets\Icon\AppList.png"
-        Description="MVVM Toolkit Sample App"
+        Description="Till Demo App"
         BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Icon\WideTile.png" Square71x71Logo="Assets\Icon\SmallTile.png" Square310x310Logo="Assets\Icon\LargeTile.png" ShortName="MVVM Toolkit Gallery">
+        <uap:DefaultTile Wide310x150Logo="Assets\Icon\WideTile.png" Square71x71Logo="Assets\Icon\SmallTile.png" Square310x310Logo="Assets\Icon\LargeTile.png" ShortName="Till Demo">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo"/>
             <uap:ShowOn Tile="wide310x150Logo"/>
@@ -47,11 +47,14 @@
           </uap:ShowNameOnTiles>
         </uap:DefaultTile >
         <uap:SplashScreen Image="Assets\Icon\SplashScreen.png" uap5:Optional="true" BackgroundColor="transparent"/>
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape"/></uap:InitialRotationPreference>
+        <uap:LockScreen BadgeLogo="Assets\Icon\BadgeLogo.png"/>
       </uap:VisualElements>
     </Application>
   </Applications>
 
   <Capabilities>
-    <Capability Name="internetClient" />
+    <Capability Name="internetClientServer"/>
   </Capabilities>
 </Package>

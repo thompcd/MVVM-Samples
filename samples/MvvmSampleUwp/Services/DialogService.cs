@@ -9,7 +9,7 @@ using Windows.UI.Xaml.Controls;
 
 #nullable enable
 
-namespace MvvmSampleUwp.Services;
+namespace TillDemoUwp.Services;
 
 /// <summary>
 /// A <see langword="class"/> that implements the <see cref="IDialogService"/> <see langword="interface"/> using UWP APIs.

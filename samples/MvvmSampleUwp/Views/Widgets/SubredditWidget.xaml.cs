@@ -6,7 +6,7 @@ using CommunityToolkit.Mvvm.DependencyInjection;
 using MvvmSample.Core.ViewModels.Widgets;
 using Windows.UI.Xaml.Controls;
 
-namespace MvvmSampleUwp.Views.Widgets;
+namespace TillDemoUwp.Views.Widgets;
 
 public sealed partial class SubredditWidget : UserControl
 {

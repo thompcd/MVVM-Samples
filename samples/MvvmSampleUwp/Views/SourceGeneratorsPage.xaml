@@ -1,8 +1,8 @@
 ﻿<Page
-    x:Class="MvvmSampleUwp.Views.SourceGeneratorsPage"
+    x:Class="TillDemoUwp.Views.SourceGeneratorsPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:controls="using:MvvmSampleUwp.Controls"
+    xmlns:controls="using:TillDemoUwp.Controls"
     xmlns:core="using:Microsoft.Xaml.Interactions.Core"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:interactivity="using:Microsoft.Xaml.Interactivity"

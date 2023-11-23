@@ -6,7 +6,7 @@ using CommunityToolkit.Mvvm.DependencyInjection;
 using MvvmSample.Core.ViewModels;
 using Windows.UI.Xaml.Controls;
 
-namespace MvvmSampleUwp.Views;
+namespace TillDemoUwp.Views;
 
 /// <summary>
 /// An empty page that can be used on its own or navigated to within a Frame.

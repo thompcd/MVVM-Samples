@@ -11,7 +11,7 @@ using Windows.Storage;
 
 #nullable enable
 
-namespace MvvmSampleUwp.Services;
+namespace TillDemoUwp.Services;
 
 /// <summary>
 /// A <see langword="class"/> that implements the <see cref="IFilesService"/> <see langword="interface"/> using UWP APIs.

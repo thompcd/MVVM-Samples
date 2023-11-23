@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30320.27
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmSampleUwp", "MvvmSampleUwp\MvvmSampleUwp.csproj", "{E667FBF4-30F2-49AC-8576-7A2B867F8F1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TillDemoUwp", "MvvmSampleUwp\TillDemoUwp.csproj", "{E667FBF4-30F2-49AC-8576-7A2B867F8F1A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvvmSample.Core", "MvvmSample.Core\MvvmSample.Core.csproj", "{28E524F7-61B3-455D-8CBD-615BC4FDE814}"
 EndProject

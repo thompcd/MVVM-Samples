@@ -10,7 +10,7 @@ using Windows.UI.Xaml.Controls;
 
 #nullable enable
 
-namespace MvvmSampleUwp.Controls;
+namespace TillDemoUwp.Controls;
 
 /// <summary>
 /// A simple control that acts as a container for a documentation block.

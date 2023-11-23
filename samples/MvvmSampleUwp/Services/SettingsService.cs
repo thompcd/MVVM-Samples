@@ -8,7 +8,7 @@ using Windows.Storage;
 
 #nullable enable
 
-namespace MvvmSampleUwp.Services;
+namespace TillDemoUwp.Services;
 
 /// <summary>
 /// A simple <see langword="class"/> that handles the local app settings.

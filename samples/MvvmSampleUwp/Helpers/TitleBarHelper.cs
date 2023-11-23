@@ -6,7 +6,7 @@ using Windows.ApplicationModel.Core;
 using Windows.UI;
 using Windows.UI.ViewManagement;
 
-namespace MvvmSampleUwp.Helpers;
+namespace TillDemoUwp.Helpers;
 
 /// <summary>
 /// A <see langword="class"/> with helper methods to manage the title bar.

@@ -7,14 +7,14 @@ using Windows.ApplicationModel.Core;
 using Windows.UI.Xaml;
 using CommunityToolkit.Mvvm.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
-using MvvmSampleUwp.Services;
+using TillDemoUwp.Services;
 using Refit;
-using MvvmSampleUwp.Helpers;
+using TillDemoUwp.Helpers;
 using MvvmSample.Core.Services;
 using MvvmSample.Core.ViewModels.Widgets;
 using MvvmSample.Core.ViewModels;
 
-namespace MvvmSampleUwp;
+namespace TillDemoUwp;
 
 /// <summary>
 /// Provides application-specific behavior to supplement the default <see cref="Application"/> class.
